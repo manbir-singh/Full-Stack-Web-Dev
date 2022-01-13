@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>QUIZ 2: FORMS</title>
+  </head>
+  <body>
+
+    <h1> Course Sign Up Page</h1>
+    <p> Please Note: First Name, Last Name, Password, and Email are required</p>
+
+    <form action="thank_you.html" method="get">
+
+      <label for="fname">First Name:</label>
+      <input id="fname" type="text" name="" placeholder="First Name" required>
+
+      <label for="lname">Last Name:</label>
+      <input id="lname" type="text" name="" placeholder="Last Name" required>
+
+      <p> </p>
+      <label for="useremail">Email:</label>
+      <input id="useremail" type="email" name="" placeholder="name@email.com" required>
+
+      <label for="psswrd">Password:</label>
+      <input id="psswrd" type="password" name="" value="" required>
+
+      <p> Are you over the age of 18?</p>
+
+      <label for="yes18"> Yes:</label>
+      <input type="radio" id="yes18" name="age18" value="yes">
+
+      <label for="no18"> No:</label>
+      <input type="radio" id="no18" name="age18" value="no">
+
+      <p>Do you have a Credit Card or PayPal?</p>
+
+      <select name="payment">
+        <option value="cc">Credit Card</option>
+        <option value="pp">Paypal</option>
+      </select>
+
+      <p> </p>
+      
+      <input id="submit" type="submit" name="" value="Submit Feedback">
+    </form>
+  </body>
+</html>
